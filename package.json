@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Full-Stack Event Management & Ticketing Platform (MERN)",
   "scripts": {
+    "build": "cd frontend && npm install && npm run build",
     "install:all": "npm install --prefix backend && npm install --prefix frontend",
     "backend": "npm start --prefix backend",
     "frontend": "npm start --prefix frontend",
